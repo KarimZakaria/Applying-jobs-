@@ -1,0 +1,101 @@
+.navbar
+{
+    height: 100px;
+}
+
+.form-border
+{
+    padding: 50px;
+    border: 2px solid grey ;
+    background-color: black;
+}
+
+.form-cont
+{
+    min-height: 460px;
+}
+.login-color
+{
+    color: red ;
+}
+footer
+{
+    color: black ;
+    background-color: #c6c9cc;
+    height: 100px;
+}
+.price
+{
+    color: darkblue;
+    font-weight: 700;
+    font-size: 25px;
+}
+.pieces-no
+{
+    color: darkred;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.username
+{
+    color: darkred;
+    font-weight: 700;
+    font-size: 25px;
+}
+.not-found
+{
+    height: 410px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: darkblue;
+}
+
+.errors-list
+{
+    list-style-type: none;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
+.login
+{
+    background-color: whitesmoke;
+    border-radius: 10px !important;
+}
+.login li a 
+{
+    color: black !important;
+}
+.stl 
+{
+    width: 100px;
+    height: 100px;
+    background : red;
+}
+.register
+{
+    background-color: whitesmoke;
+    border-radius: 10px !important;
+    margin-right: 5px !important;
+}
+
+.register li a 
+{
+    color: black !important;
+}
+.logout
+{
+    background-color: whitesmoke;
+    border-radius: 10px !important;
+}
+.logout li a 
+{
+    color: black !important;
+}
+li a:hover
+{
+    color: red !important;
+    text-decoration: underline !important;
+}
