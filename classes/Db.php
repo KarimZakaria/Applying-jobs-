@@ -19,18 +19,13 @@
         // Make Connection 
         public function getConnection()
         {
-            $conn =new  mysqli($this->servername , $this->db_username , $this->db_password , $this->dbname) ;
+            $conn =new mysqli($this->servername , $this->db_username , $this->db_password , $this->dbname) ;
             return $conn ;  
         }
-
     }
 
     // Take An Object From Class Db 
     $db = new Db("localhost" , "root" , "" , "karimdatabase" ); 
     $conn = $db->getConnection();
-
-
-
-
 
 ?>
